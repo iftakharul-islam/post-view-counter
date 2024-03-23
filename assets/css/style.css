@@ -1,0 +1,15 @@
+.countify-post-view{
+    background: #fdfdfd;
+    padding: 15px;
+    text-align:  center;
+    font-size: 28px;
+    width: 250px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 6px 3px #e0dede;
+}
+
+.countify-post-view .countify-post-counter i{
+    font-size: 28px; 
+    display: inline-block;
+    margin: 5px;
+}
