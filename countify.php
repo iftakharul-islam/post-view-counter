@@ -66,7 +66,7 @@
          ), $atts, 'post_view_count');
         
          $view_count = $this->get_post_view_count ($atts['post_id'] );
-         return $this->view_count_markup($view_count);
+         return wp_kses_post($this->view_count_markup($view_count));
      }
 
      private function view_count_markup($view_count) {
